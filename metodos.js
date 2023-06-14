@@ -56,3 +56,12 @@ const persons = [
   ];
   const foundPerson = persons.find(person => person.age === 40);
   console.log(foundPerson);
+//foundIndex
+  const persons2 = [
+    { name: 'John', age: 30 },
+    { name: 'Jane', age: 25 },
+    { name: 'Bob', age: 40 },
+    { name: 'Alice', age: 35 }
+  ];
+  const foundIndex = persons2.findIndex(person => person2.age === 40);
+  console.log(foundIndex);
