@@ -63,5 +63,5 @@ const persons = [
     { name: 'Bob', age: 40 },
     { name: 'Alice', age: 35 }
   ];
-  const foundIndex = persons2.findIndex(person => person2.age === 40);
+  const foundIndex = persons2.findIndex(persons2 => persons2.age === 40);
   console.log(foundIndex);
